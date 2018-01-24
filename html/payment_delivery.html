@@ -1,0 +1,98 @@
+<!--
+<?php
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$email = $_POST['email'];
+$text = $_POST['text'];
+$submit = $_POST['submit'];
+if (isset($submit)){
+    mail('cubewood.nature@gmail.com',$name,"$text\n$phone\n$email");
+}
+?>
+-->
+<!DOCTYPE html>
+    <html>
+    <head>
+         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/payment_delivery.css" />
+        <link rel="stylesheet" type="text/css" href="../css/normilize.css">
+        <title>Cubewood</title>
+    </head>
+        <body>
+             <div class="body">
+                <header>
+                    <img class="logo" src="../images/logo.jpg" height="100px"/img>
+                    <div class="sm">
+                                <a href="https://www.instagram.com/cube_wood/" target="_blank"> <img id="instagram" src="../images/instagram.png" width="22px"/></a>
+                        <a href="https://www.facebook.com/cubwood/" target="_blank"> <img id="facebook" src="../images/facebook.png" width="22px"/></a>
+                         <a href="https://vk.com/cubewood"  target="_blank"> <img id="vk" src="../images/vk.png" width="22px"/></a>
+                    </div>
+                </header>
+      
+                <nav class="navigation">
+          
+                    <div class="navigation-buttons">
+                     
+                        <a href="../index.html"> Головна </a>
+                        <a href="https://www.etsy.com/shop/Cubewood?ref=hdr_shop_menu" target="_blank"> Etsy</a>
+                        <a href="#"> Про нас </a> 
+                        <a href="payment_delivery.html"> Доставка і оплата </a>
+                        <a href="contact_us.html"> Зв'язатися з нами</a>
+                        <a href="feedback.html"> Відгуки</a>
+                    </div> 
+                 </nav>
+               <main>
+                        <div class="main-container">
+                            <h3>Способи доставки:</h3>
+                            <br>
+                            <p> Вироби відправляється Новою поштою або іншим оператором поштового зв’язку України протягом 1-3 робочих
+                                днів з дня замовлення (якщо обрана клієнтом конфігурація лампи існує в наявності),
+                                або ж протягом 5-14 робочих днів (якщо настільну лампу потрібно виготовити або дозамовити необхідні деталі).
+                                <br>
+                                <br>
+                                Якщо Ви знаходитесь у Львові, можливо обговорити доставку індивідуально.
+                                <br>
+                                <br>
+                                Доставка за межі України здійснюється Укрпоштою згідно з тарифами і умовами цього оператора поштового зв'язку.
+                            </p>
+                            <br>
+                            <br>
+                            <h3>Способи оплати:</h3>
+                            <br>
+                            <p> Оплаа здійснюється в гривнях шляхом переказу коштів на карту Приватбанку або ж оплативши у відділенні
+                                Нової пошти (іншого оператора) при отриманні замовлення.
+                                <br><br>
+                                Оплата товарів для відправлення за межі України здійснюється згідно з діючим курсом валют. При відправленні закордон необхідною є 100% передоплата вартості товару і вартості доставки.  
+                            </p>
+                            <br>
+                            <br>
+                            <p> <strong><i> Завжди раді відповісти на всі Ваші запитання!</i></strong></p>
+                        </div>
+                        <br>
+                        <div class="connection">
+                            <input name="name" placeholder="Ваше ім'я" /><br>
+                            <input name="phone" placeholder="Ваш номер телефону" /><br>
+                            <input name="email" placeholder="Email" /><br>
+                            <textarea name="text" cols="40" rows="5" placeholder="Повідомлення"></textarea>
+							<button name="submit" type="submit">Відправити</button>
+                        </div>
+
+              </main>
+              
+              <footer>
+                <div class="footer">
+                    <p>Контакти</p>
+                     Львів<br>
+                     0038 0976248321<br>
+                     0038 0988269441
+                     cubewood.nature@gmail.com
+                </div>
+                <div class="copyright">
+                 <p> Copyright 2017. Cubewood </p> 
+                </div>
+         
+            </footer>
+       </div>
+    </body>
+
+</html>

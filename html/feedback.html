@@ -1,0 +1,80 @@
+﻿<!-- <?php
+$name = $_POST['name'];
+$email = $_POST['email'];
+$text = $_POST['text'];
+$submit = $_POST['submit'];
+$mysqli = new mysqli ("localhost","root","","test");
+$mysqli->query ("SET NAME 'utf8'");
+if(isset($submit)){
+$mysqli->query("INSERT INTO `feedback`(`name`,`email`,`text`) VALUES ('$name','$email','$text')");
+}
+$mysqli->close();
+?> -->
+<!DOCTYPE html>
+    <html>
+    <head>
+         <meta charset="utf-8">
+         <link rel="shortcut icon" href="favicon.ico" /> 
+        <link rel="stylesheet" href="../css/feedback.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <title>Cube Wood</title>
+    </head>
+    <body>
+                <div class="body">
+        <header>
+          <a href="../index.html"> <img class="logo" src="../images/logo.jpg" height="100px"/img></a>
+           <div class="sm">
+                          <a href="https://www.instagram.com/cube_wood/" target="_blank"> <img id="instagram" src="../images/instagram.png" width="22px"/></a>
+                        <a href="https://www.facebook.com/cubwood/" target="_blank"> <img id="facebook" src="../images/facebook.png" width="22px"/></a>
+                         <a href="https://vk.com/cubewood"  target="_blank"> <img id="vk" src="../images/vk.png" width="22px"/></a>
+                </div>
+       </header>
+       <nav class="navigation">
+                <a href="../index.html"> Головна </a>
+                <a href="https://www.etsy.com/shop/Cubewood?ref=hdr_shop_menu" target="_blank"> Etsy</a>
+                <a href="#"> Про нас </a> 
+                <a href="payment_delivery.html"> Доставка і оплата </a>
+                <a href="contact_us.html"> Зв'язатися з нами</a>
+                <a href="feedback.html"> Відгуки</a>
+       </nav>
+       <script src="../js/feedback.js"></script>
+       <div class="feedback">
+        <div id="form">   
+       <form action="" method="POST"> 
+       <input name="name" placeholder="Ваше імя" /><br>
+       <input name="email" placeholder="E-mail" /><br>
+       <textarea name="text" cols="40" rows="5" placeholder="текст відгуку"></textarea>
+	   <button id="submit" name="submit" type="submit">надіслати</button> </form>
+        </div>
+        <button id="addfeedbackbutton" onclick="add(this)" >Залишити відгук</button>
+       <div class="viwe">
+	   <!-- <?php
+function user_data($result_set){
+     while (($row = $result_set->fetch_assoc()) != false){
+         echo ("<h3>" .$row['name']. "</h3>");
+         echo ("<h4>" .$row['text']. "</h4><br>");
+     }
+}
+$mysqli = new mysqli ("localhost","root","","test");
+$mysqli->query ("SET NAME 'utf8'");
+$result_set = $mysqli->query("SELECT * FROM `feedback`");
+user_data($result_set);
+?>-->
+       </div>
+       </div>
+       <footer>
+           <div class="footer">
+                <p>Контакти</p>
+                Львів<br>
+                0038 0976248321<br>
+                0038 0988269441
+                cubewood.nature@gmail.com
+           </div>
+           <div class="copyright">
+                 <p> Copyright 2017. Cubewood </p> 
+           </div>
+         
+       </footer>
+       </div>
+    </body>
+</html>

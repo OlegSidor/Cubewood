@@ -1,0 +1,157 @@
+.navigation{ /* Блок навігації */
+    position: relative;
+    padding: 1%;
+    border: gray;
+    background: white;
+    border-bottom: solid #c9c9c9 1px;
+    margin-left:0;
+    margin-right:0;
+    text-align: right;
+    width: 68em;
+}
+.logo{/* банер кубвуд */
+    position: relative;
+    left: 20%;
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    margin-bottom: -5%;
+    overflow: inherit;
+    left: 0;
+}
+body{/* тіло сайта */
+    position: relative;
+    width: 80em;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{/* все що є на сайті */
+    margin: 0;
+    padding: 0;
+}
+body img{/* всі картинки в тілі */
+    text-align: center
+}
+
+.navigation a{/* кнопки в навігації */
+    text-decoration: none;
+    color: gray;
+    margin-left: 2%;
+    position: relative;
+   
+}
+.navigation-buttons{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.navigation a:hover{/* при наведенні на кнопку в навігації */
+    position: relative;
+    padding: 14px;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    font-size: 100%;
+    color: black;
+    
+}
+.navigation a:not(hover){/* коли на кнопку не неведено в навігації */
+    transition-duration: 0.6s;
+}
+
+header{
+    margin-left: 1px;
+    margin-right: 1px;
+   
+}
+.body{/* класс тіла */
+    margin: 0 auto;
+    width: 70em;
+}
+.sm{
+    position: relative;
+    opacity: 0.4;
+    text-align: right;
+    width: 70em;
+}
+#facebook{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#instagram{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+#vk{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.footer{/* підвал */
+    position: relative;
+    border-right: solid #c9c9c9 1px;
+    text-align: left;
+    width: 17%;
+    top: 15px;
+    color: #686868;
+    padding: 0px;
+    padding-right: 3%;
+    margin: 10px;
+    font-size: 1,2em;
+    
+}
+.footer p{
+color: black;
+
+}
+footer{
+    width: 70em;
+    position: relative;
+    border-top: solid #c9c9c9 1px;
+   
+}
+.copyright{
+    position: absolute;
+    right: 0px;
+    margin-top: -2%;
+    color: grey;
+    margin-right: 3%;
+    
+}
+.copyright p{
+    font-size: 15px;
+}
+
+main{/* там де картинки ) */
+    word-spacing: 5px;
+    position: relative;
+    text-align:auto;
+	width: 100%;
+    margin-left: 0.3em;
+    box-sizing: border-box;
+}
+.cube15{/* картинки */
+    margin-top: 2%;
+    display:inline-block;
+    margin-bottom: 1%;
+    text-align: left;
+    font-size: 0.9em;
+}
+.cube15 img{
+    text-acenter;
+lign: }
+figcaption{
+    color: brown;
+    opacity: 0.8;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+main img:hover{ /* при наведенні на картинку в mine */
+    opacity: 0.5;
+    transition-duration: 0.4s;
+}
+main img:not(hover){
+    transition-duration: 0.9s;
+    opacity: 1;
+}

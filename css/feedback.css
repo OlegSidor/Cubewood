@@ -1,0 +1,206 @@
+.navigation{ 
+    position: relative;
+    padding: 1%;
+    text-align: center;
+    border-bottom: solid #c9c9c9 1px;
+    margin-left:0;
+    margin-right:0;
+    text-align: right;
+}
+.logo{
+    position: relative;
+    left: 20%;
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    margin-bottom: -2%;
+    overflow: inherit;
+    left: -1%;
+}
+body{
+    margin: 0 auto;
+    width: 70em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 2%;
+    position: relative;
+   
+}
+.navigation-buttons{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.navigation a:hover{
+    position: relative;
+    padding: 14px;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    font-size: 100%;
+    color: black;
+    
+}
+.navigation a:not(hover){
+    transition-duration: 0.6s;
+}
+
+
+header{
+    margin-left: 1px;
+    margin-right: 1px;
+   
+}
+.sm{
+    position: relative;
+    left: 0;
+    opacity: 0.4;
+    text-align: right;
+    left: -2%;
+    
+}
+#warning{
+    color: black;
+    font-weight: bold;
+}
+#facebook{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+#instagram{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+#vk{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+.main_container{ /* головий контейнер де знаходяться текст і картинка */
+    position: relative;
+    height: 600px;
+}
+.img_cube15{ /* картинка */
+    position: absolute;
+    top: 0px;
+    margin-top: 2%;
+    min-width: 40%;
+    float: left;
+    
+    
+}
+.text_cube15{/* текст */
+    margin-top: 2%;
+    position: absolute;
+    font-size: 1em;
+    width: 40%;
+	right: 0px;
+   
+    
+}
+
+.footer{
+    position: relative;
+    border-right: solid #c9c9c9 1px;
+    text-align: left;
+    width: 18em;
+    top: 15px;
+    color: #686868;
+    padding: 0px;
+    padding-right: 3%;
+    margin: 10px;
+    font-size: 1,2em;
+    
+}
+.footer p{
+color: black;
+
+}
+.body{
+    margin: 0 auto;
+    width: 70em;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 70em;
+    position: relative;
+    border-top: solid #c9c9c9 1px;
+   
+}
+.copyright{
+    position: absolute;
+    right: 0px;
+    margin-top: -2%;
+    color: grey;
+    margin-right: 3%;
+    
+}
+.copyright p{
+    font-size: 15px;
+}
+.feedback{
+    position: relative;
+}
+.viwe{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: darkgrey;
+}
+
+form {
+    position: relative;
+    margin-top: 1em;
+    transition-duration: 1s;
+    margin-bottom: -2em;
+}
+form input{
+    height: 40px;
+    width: 400px;
+    margin: 7px 0;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    color: black;
+	text-indent: 1.5em;
+}
+form textarea{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    height: 9.3em;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    width: 62%;
+    resize: none;
+    border: none;
+    text-indent: 1.5em;
+}
+form button{
+    color: darkgrey;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+    border: none;
+    height: 2.7em;
+    width: 30em;
+}
+#addfeedbackbutton{
+    border-radius: 3px;
+    margin-top: 2%;
+    background: whitesmoke;
+    color: #666666;
+    border: none;
+    height: 2em;
+    width: 9em;
+}

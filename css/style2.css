@@ -1,0 +1,290 @@
+/*GENERAL STYLES*/
+body{
+    margin: auto;
+    width: 70em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header{
+    margin-left: 1px;
+    margin-right: 1px;
+   
+}
+.logo{
+    position: relative;
+    left: 20%;
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    margin-bottom: -5%;
+    overflow: inherit;
+    left: 0;
+}
+
+
+/*NAVIGATION*/
+
+.navigation{ 
+    position: relative;
+    padding: 1%;
+    text-align: center;
+    border-bottom: solid #c9c9c9 1px;
+    margin-left:0;
+    margin-right:0;
+    text-align: right;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 2%;
+    position: relative; 
+}
+
+.navigation-buttons{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.navigation a:hover{
+    position: relative;
+    padding: 14px;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    font-size: 100%;
+    color: black; 
+}
+
+.navigation a:not(hover){
+    transition-duration: 0.6s;
+}
+
+
+.sm{
+    position: relative;
+    left: 0;
+    opacity: 0.4;
+    text-align: right;
+    left: -2%;  
+}
+#warning{
+    color: black;
+    font-weight: bold;
+}
+
+#facebook{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+
+#instagram{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+
+#vk{
+    margin-left: 0.7%;
+    margin-right: 0.7%;
+}
+
+
+/*MAIN*/
+.main_container { /* головий контейнер де знаходяться текст і картинка */
+    position: relative;
+    height: 600px;
+}
+.img_cube15{ /* картинка */
+    position: absolute;
+    top: 0px;
+    margin-top: 2%;
+    min-width: 40%;
+    float: left;
+    
+}
+
+.text_cube15{/* текст */
+    margin-top: 2%;
+    position: absolute;
+    font-size: 1em;
+    width: 40%;
+	right: 0px;  
+}
+.galeru img{
+    position: absolute;
+    z-index: 0;
+}
+
+.galeru{ /* слас де находяться кнопкі назад і вперед */
+    position: relative;
+    width: 637px;
+    height: 500px;
+    overflow: hidden;
+}
+.list{
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    bottom: 1.2em;
+    z-index: 100;
+    opacity: 0;
+}
+.list ul a{
+    border-radius: 15px;
+    height: 15px;
+    width: 15px;
+    background: black;
+    color: black;
+    margin-left: 5px;
+    opacity: 0.3;
+    display: inline-block;
+}
+.list .slide{
+    opacity: 0.7;
+}
+
+.next{ /* кнопка вперед */
+    position: absolute;
+    top: 0px;
+    right: -3em;
+    text-align: right;
+    height: 29.6em;
+    width: 25em;
+    z-index: 100;
+    
+}
+.galeru .top{
+    z-index: 99;
+}
+.galeru .pretop{
+    z-index: 98;
+}
+
+.next button{ /* кнопка вперед */
+    border: none;
+    margin-top: 18em;
+    opacity: 0;
+    background-color:rgba(0, 0, 0, 0.0);
+    outline: none;
+}
+
+.back{ /* кнопка назад */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 12em;
+    height: 30em;
+    z-index: 100;
+    margin-left: -3em;
+}
+
+.back button{ /* кнопка назад */
+    border: none;
+    margin-top: 18em;
+    opacity: 0;
+    background-color:rgba(0, 0, 0, 0.0);
+    outline: none;
+}
+#img{
+    transition-duration: 0.5s;
+}
+
+
+.under-scroll{
+position: relative;
+height: 200px;
+overflow-x: hidden;
+width: 70em;
+}
+.under-scroll a {
+    display: inline-block;
+    text-decoration: none;
+}
+.under-scroll img{ /*тут )*/
+    width: 221px;
+    height: 160px;
+}
+.clon{
+    margin-right: 3px;
+}
+.buttonss{
+	height: 160px;
+	width: 70em;
+	position:relative;
+	margin-bottom: 1em;
+}
+.scrollnext{
+	position:absolute;
+	z-index:999;
+	right:0px;
+	background: snow;
+	height:100%;
+	opacity:0.4;
+	width:90px;
+}
+.scrollnext input{
+	opacity:0;
+}
+.scrollback input{
+	opacity:0;
+}
+.scrollback{
+	position:absolute;
+	z-index:999;
+	left:0px;
+	background: snow;
+	height:100%;
+	opacity:0.4;
+	width:90px;
+}
+.scroll{
+    position: absolute; 
+    width: 9999999em;
+}
+
+
+/*FOOTER*/
+.footer{
+    position: relative;
+    border-right: solid #c9c9c9 1px;
+    text-align: left;
+    width: 18em;
+    top: 15px;
+    color: #686868;
+    padding: 0px;
+    padding-right: 3%;
+    margin: 10px;
+    font-size: 1,2em;
+    
+}
+.footer p{
+color: black;
+
+}
+.body{
+    width: 70em;
+}
+
+footer{
+	position:relative;
+    width: 70em;
+    position: absolute;
+    border-top: solid #c9c9c9 1px;
+}
+.copyright{
+    position: absolute;
+    right: 0px;
+    margin-top: -2%;
+    color: grey;
+    margin-right: 3%;
+    
+}
+.copyright p{
+    font-size: 15px;
+   }
+

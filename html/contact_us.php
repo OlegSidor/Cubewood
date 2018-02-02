@@ -1,4 +1,4 @@
-<!--
+
 <?php
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -9,7 +9,6 @@ if (isset($submit)){
     mail('cubewood.nature@gmail.com',$name,"$text\n$phone\n$email");
 }
 ?>
--->
 <!DOCTYPE html>
     <html>
     <head>
@@ -26,21 +25,21 @@ if (isset($submit)){
                          <a href="https://www.instagram.com/cube_wood/" target="_blank"> <img id="instagram" src="../images/instagram.png" width="22px"/></a>
                         <a href="https://www.facebook.com/cubwood/" target="_blank"> <img id="facebook" src="../images/facebook.png" width="22px"/></a>
                          <a href="https://vk.com/cubewood"  target="_blank"> <img id="vk" src="../images/vk.png" width="22px"/></a>
-                
+
                     </div>
                 </header>
-      
+
                 <nav class="navigation">
-          
+
                     <div class="navigation-buttons">
-                     
+
                           <a href="../index.html"> Головна </a>
                           <a href="https://www.etsy.com/shop/Cubewood?ref=hdr_shop_menu" target="_blank"> Etsy</a>
-                          <a href="#"> Про нас </a> 
+                          <a href="#"> Про нас </a>
                           <a href="payment_delivery.html"> Доставка і оплата </a>
                           <a href="contact_us.html"> Зв'язатися з нами</a>
                           <a href="feedback.html"> Відгуки</a>
-                    </div> 
+                    </div>
                  </nav>
                  <main>
                      <div class="main-container">
@@ -50,14 +49,14 @@ if (isset($submit)){
                          <br><br>
                          <p><i>Наші телефони:</i></p> <br>
                              0038 097 6248321  <br>
-                             0038 093 8160499 <br> 
+                             0038 093 8160499 <br>
                              0038 098 8269441  <br> <br><br>
                         <p><i>Ми в соціальних мережах:</i> </p> <br>
-        
+
                             <p><a id="social-media" href="https://www.facebook.com/cubwood/" target="_blank">facebook</a></p>
                             <p><a id="social-media" href="https://vk.com/cubewood" target="_blank">vkontakte</a></p>
                             <p><a id="social-media" href="https://www.instagram.com/cube_wood/" target="_blank">instagram</a></p>
-                       
+
                      </div>
                      <div class="connection">
                          <form action="" method="POST">
@@ -78,9 +77,9 @@ if (isset($submit)){
                      cubewood.nature@gmail.com
                 </div>
                 <div class="copyright">
-                 <p> Copyright 2017. Cubewood </p> 
+                 <p> Copyright 2017. Cubewood </p>
                 </div>
-         
+
             </footer>
        </div>
     </body>
